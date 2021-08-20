@@ -1,0 +1,146 @@
+body {
+    font-family: 'Hachi Maru Pop', cursive;
+    color: white;
+    background-image: url("img/HD-Black-Light-Background.png") ;
+}
+
+.heading_part {
+    background-color: rgba(0, 0, 0, 0.248);
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 0px 80px 20px black;
+    transition: 0.1s;
+    width: 100%;
+    margin: 0px;
+}
+
+.heading_part:hover{
+    box-shadow: 0px 0px 0px 0px black;
+}
+
+.foot_part{
+    position: fixed;
+    bottom: 0px;
+    width: 99%;
+    font-size: 25px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding-top: 0.4%;
+    padding-bottom: 0.6%;
+    text-align: center;
+}
+
+.cont_div{
+    margin-top: 2%;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: white;
+    width: 50%;
+    padding: 15px;
+    display: flex;
+    box-shadow: 0px 0px 25px 6px black;
+    border-radius: 20px;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+img{
+    width: 50%;
+    border-radius: 15px;
+}
+
+.result_text{
+    background-color: rgb(208, 43, 43);
+    width: 90%;
+    height: fit-content;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-align: center;
+    margin-right: 2%;
+
+}
+
+.cont_div_content{
+    margin-left: 2%;
+    box-shadow: 0px 0px 25px 2px black;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px;
+}
+
+.main_div{
+    display: flex;
+}
+
+.all_result_container{
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 20px;
+    border-radius: 15px;
+    margin: 4%;
+}
+
+@media screen and (max-width: 425px) {
+    .heading_part {
+        font-size: 20px;
+    }
+
+    .foot_part{
+        font-size: 10px;
+        width: 96%;
+    }
+    /*  */
+
+    .result_text{
+        font-size: 15px;
+        padding: 4px;
+        margin-right: 5%;
+    }
+
+    .cont_div{
+        width: 93%;
+    }
+
+    .main_div{
+        display: block;
+        margin-right: 6%;
+        margin-top: 3%;
+    }
+    
+    /*  */
+}
+
+@media screen and (max-width: 767px) {
+    .cont_div{
+        display: block;
+    }
+
+        img{
+        padding-left: 25%;
+    }
+}
+
+/*  */
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 10px 3px rgb(0, 0, 0); 
+    border-radius: 0px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(160, 160, 160); 
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #dddddd; 
+  }
+
+/*  */
